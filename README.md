@@ -6,3 +6,12 @@ and docker-compose latest version
 
 to use clone this repo in any path.
 and run docker-compose up -d 
+
+to verify is up the container run:
+
+docker ps
+
+
+And finally to enter the container:
+
+docker-compose exec -u gueroverde go bash

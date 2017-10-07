@@ -6,5 +6,5 @@ services:
       context: ./go
     container_name: go
     volumes:
-        - ${APPLICATION}:/go/src
+        - ${APPLICATION}:/var/go/src
     tty: true
