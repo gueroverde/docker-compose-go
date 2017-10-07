@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+  go:
+    build:
+      context: ./go
+    container_name: go
+    volumes:
+        - ${APPLICATION}:/go/src
+    tty: true
