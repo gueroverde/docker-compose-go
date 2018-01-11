@@ -14,4 +14,7 @@ docker ps
 
 And finally to enter the container:
 
-docker-compose exec -u gueroverde go bash
+```docker-compose exec -u gueroverde go bash ```
+
+to run go tour 
+```go tool tour -http 0.0.0.0:3999```

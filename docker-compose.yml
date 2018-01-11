@@ -7,4 +7,6 @@ services:
     container_name: go
     volumes:
         - ${APPLICATION}:/var/go/src
+    ports:
+      - ${PORT_GO_TOOL_TOUR}:3999
     tty: true
